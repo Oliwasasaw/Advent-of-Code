@@ -1,4 +1,4 @@
-with open('Day1.txt') as file:
+with open('Input_1.txt') as file:
     lst = [line.strip() for line in file]
 
 i = 0

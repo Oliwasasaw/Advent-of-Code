@@ -47,7 +47,7 @@ def test():
 
 
 def open_file():
-    with open('Day4.txt') as file:
+    with open('Input_4.txt') as file:
         lst = [line.strip() for line in file]
 
     output = section(lst)

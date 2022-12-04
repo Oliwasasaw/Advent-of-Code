@@ -58,7 +58,7 @@ def test():
 
 
 def open_file():
-    with open('Day3.txt') as file:
+    with open('Input_3.txt') as file:
         lst = [line.strip() for line in file]
 
     total = rucksack(lst)

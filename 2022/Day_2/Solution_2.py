@@ -1,6 +1,6 @@
 import pandas as pd
 
-with open('Day2.txt') as file:
+with open('Input_2.txt') as file:
     lst = [line.strip() for line in file]
 
 w = 6
